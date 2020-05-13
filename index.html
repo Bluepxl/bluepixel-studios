@@ -30,6 +30,8 @@
 		p {
 			line-height:5px;
 			text-shadow:0 0 1.5px #C8C8C8;
+			animation-name:fade;
+			animation-duration:2s;
 		}
 		div {
 			text-shadow:0 0 4px #FFFFFF;
@@ -47,6 +49,10 @@
 			50%  {color:yellow;top:5px;}
 			75%  {color:purple;top:-5px;}
 			100% {color:blue;top:-15px;}
+		}
+		@keyframes fade {
+			0% {opacity:0;}
+			100%{opacity:100;}
 		}
 	</style>
 	<body>
